@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { RiArticleLine, RiFileCopyLine } from 'react-icons/ri'
+import { RiArticleLine, RiCodepenLine, RiFileCopyLine, RiGithubLine, RiLinkedinLine } from '@/utils'
 
 export const CardProfile = () => {
   return (
@@ -27,6 +27,27 @@ export const CardProfile = () => {
           <RiFileCopyLine />
           Copiar Email
         </button>
+      </div>
+
+      <div className="flex items-center gap-5">
+        <a
+          href="/"
+          className="w-12 h-12 border border-gray-500 rounded-xl flex items-center justify-center hover:bg-gray-700 hover:text-white transition-colors duration-300"
+        >
+          <RiLinkedinLine size={20} />
+        </a>
+        <a
+          href="/"
+          className="w-12 h-12 border border-gray-500 rounded-xl flex items-center justify-center hover:bg-gray-700 hover:text-white transition-colors duration-300"
+        >
+          <RiGithubLine size={20} />
+        </a>
+        <a
+          href="/"
+          className="w-12 h-12 border border-gray-500 rounded-xl flex items-center justify-center hover:bg-gray-700 hover:text-white transition-colors duration-300"
+        >
+          <RiCodepenLine size={20} />
+        </a>
       </div>
     </div>
   )
