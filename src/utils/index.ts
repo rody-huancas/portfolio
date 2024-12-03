@@ -1,2 +1,2 @@
-export * from './functions.utils';
+export * from './functions.util';
 export * from './icons.util';

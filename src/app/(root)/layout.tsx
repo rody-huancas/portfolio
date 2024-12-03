@@ -6,7 +6,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
     <>
       <Header />
       
-      <main>{children}</main>
+      <main className='mt-32 w-full'>{children}</main>
     </>
   )
 }
