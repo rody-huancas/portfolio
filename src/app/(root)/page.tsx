@@ -3,7 +3,7 @@ import { CardProfile, WorkExperience, Skills, RecentProjects } from '@/component
 export default function Home() {
   return (
     <section className="w-full h-full">
-      <div className="grid grid-cols-3 grid-rows-2 gap-10 h-full">
+      <div className="grid grid-cols-3 grid-rows-2 gap-7 h-full">
         <div className="row-span-2 h-full">
           <CardProfile />
         </div>

@@ -1,4 +1,4 @@
-import { Header } from '@/components'
+import { Footer, Header } from '@/components'
 import { ReactNode } from 'react'
 
 const MainLayout = ({ children }: { children: ReactNode }) => {
@@ -6,7 +6,11 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
     <>
       <Header />
       
-      <main className='mt-32 w-full'>{children}</main>
+      <main className='mt-28 w-full'>
+        {children}
+      </main>
+
+      <Footer />
     </>
   )
 }

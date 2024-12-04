@@ -6,7 +6,7 @@ import { TbArrowElbowRight } from '@/utils'
 
 export const Header = () => {
   return (
-    <header className="bg-white flex items-center justify-between py-3 px-5 rounded-lg shadow-nav fixed top-12 left-1/2 transform -translate-x-1/2 container lg:w-main">
+    <header className="bg-white flex items-center justify-between py-2 px-5 rounded-lg shadow-nav fixed top-10 left-1/2 transform -translate-x-1/2 container lg:w-main z-40">
       <Logo />
 
       <NavLinks />

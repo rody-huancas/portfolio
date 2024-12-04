@@ -5,8 +5,8 @@ export const CardProfile = () => {
   return (
     <div className="bg-white p-5 shadow-nav rounded-xl text-gray-600 space-y-5">
       <div className="space-y-3">
-        <div className="relative w-full h-72">
-          <Image src="/placeholder.png" alt="Placeholder de imagen" fill />
+        <div className="relative w-full h-72 rounded-xl">
+          <Image src="/placeholder.png" alt="Placeholder de imagen" fill className='rounded-xl' />
         </div>
 
         <h1 className="text-xl font-semibold text-gray-700">Rody Huancas 👋</h1>
