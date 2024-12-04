@@ -6,6 +6,25 @@
   box-shadow: 0 1px 2px 0 rgba(26, 31, 44, 0.25);
 }
 
+/* SCROLL */
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+/* SLIDER - WORKS */
+.animate-vertical-slide {
+  animation: verticalSlide 15s linear infinite alternate;
+}
+
+@keyframes verticalSlide {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-vertical-slide:hover {
+  animation-play-state: paused
 }
