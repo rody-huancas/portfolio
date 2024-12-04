@@ -26,5 +26,10 @@
 }
 
 .animate-vertical-slide:hover {
-  animation-play-state: paused
+  animation-play-state: paused;
+}
+
+/* TOOLTIP */
+.clip-bottom {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
