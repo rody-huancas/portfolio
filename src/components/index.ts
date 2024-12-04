@@ -28,4 +28,5 @@ export * from './layout/Header';
 export * from './layout/Logo';
 export * from './layout/NavLink';
 export * from './layout/NavLinks';
+export * from './projects/ImagePreview';
 export * from './ui/Tooltip';
