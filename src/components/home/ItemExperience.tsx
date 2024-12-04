@@ -12,7 +12,7 @@ export const ItemExperience = (props: Props) => {
   return (
     <div className="grid grid-cols-3 gap-4 w-full">
       <div className="flex items-center justify-center">
-        <div className="relative w-[100px] h-[50px]">
+        <div className="relative w-[100px] h-[70px]">
           <Image
             src={imageSrc}
             alt={imageAlt}
