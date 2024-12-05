@@ -1,39 +1,45 @@
 'use client'
 
-import Link from 'next/link'
 /* Components */
-import { ChangeTheme, Logo, NavLinks } from '@/components'
+import { ButtonContact, ChangeTheme, Logo, NavLinks } from '@/components'
 /* Utils */
-import { cn, TbArrowElbowRight } from '@/utils'
+import { CiMenuFries, cn } from '@/utils'
 /* Hooks */
 import { useScroll } from '@/hooks'
+import { useThemeStore } from '@/store'
 
 export const Header = () => {
-  const isScrolled = useScroll(20);
+  const isScrolled = useScroll(20)
+  const { menuIsOpen, setMenuIsOpen } = useThemeStore()
+
+  const toggleShowMenu = () => setMenuIsOpen(!menuIsOpen)
 
   return (
-    <header
-      className={cn(
-        'bg-white flex items-center justify-between py-2 px-5 rounded-lg shadow-nav fixed left-1/2 transform -translate-x-1/2 container lg:w-main z-40 transition-all duration-300',
-        isScrolled ? 'top-0' : 'top-10'
-      )}
-    >
-      <Logo />
+    <>
+      <header
+        className={cn(
+          'fixed left-1/2 transform -translate-x-1/2 z-40 w-full px-5 md:px-0',
+          isScrolled ? 'top-0' : 'top-10',
+        )}
+      >
+        <div className="bg-white flex items-center justify-between py-2 px-5 rounded-lg shadow-nav container w-full lg:w-main mx-auto transition-all duration-300">
+          <Logo />
 
-      <NavLinks />
+          <NavLinks />
 
-      <div className="flex items-center gap-5">
-        <ChangeTheme />
-
-        <Link
-          href="/contact"
-          className="py-3.5 px-5 bg-slate-800 rounded-lg text-white font-medium text-md flex items-center gap-2 hover:bg-slate-950 transition-colors duration-300"
-          title="Contáctame"
-        >
-          Contacto
-          <TbArrowElbowRight size={20} />
-        </Link>
-      </div>
-    </header>
+          <div className="hidden md:flex items-center gap-5">
+            <ChangeTheme />
+            <ButtonContact />
+          </div>
+          
+          <button
+            className="bg-slate-200/80 hover:bg-slate-500/20 p-2 rounded-xl outline-none md:hidden transition-colors duration-300"
+            onClick={toggleShowMenu}
+          >
+            <CiMenuFries size={22} />
+          </button>
+        </div>
+      </header>
+    </>
   )
 }

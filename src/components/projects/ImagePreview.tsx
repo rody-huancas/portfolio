@@ -24,7 +24,7 @@ export const ImagePreview: React.FC = () => {
       />
 
       <button
-        className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity"
+        className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"
         onClick={toggleExpand}
       >
         <span className="bg-white shadow-sm text-2xl font-bold text-slate-800 p-1 rounded-full">
@@ -38,7 +38,7 @@ export const ImagePreview: React.FC = () => {
           onClick={toggleExpand}
         >
           <div
-            className="relative"
+            className="relative px-5 lg:px-0"
             onClick={(e) => e.stopPropagation()}
           >
             <Image
@@ -46,7 +46,7 @@ export const ImagePreview: React.FC = () => {
               alt="Expanded"
               width={1000}
               height={700}
-              className="w-[1000px] h-[700px] object-cover rounded-xl"
+              className="lg:w-[1000px] lg:h-[700px] object-cover rounded-xl"
             />
           </div>
         </div>

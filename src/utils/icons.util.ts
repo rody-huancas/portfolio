@@ -9,7 +9,9 @@ import { RiGithubLine } from 'react-icons/ri'
 import { RiCodepenLine } from 'react-icons/ri'
 import { RiArticleLine } from 'react-icons/ri'
 import { RiFileCopyLine } from 'react-icons/ri'
-import { GoPlus } from "react-icons/go";
+import { GoPlus } from 'react-icons/go'
+import { CiMenuFries } from 'react-icons/ci'
+import { IoCloseOutline } from 'react-icons/io5'
 
 export {
   RiMoonClearFill,
@@ -23,5 +25,7 @@ export {
   RiCodepenLine,
   RiArticleLine,
   RiFileCopyLine,
-  GoPlus
+  GoPlus,
+  CiMenuFries,
+  IoCloseOutline,
 }

@@ -18,7 +18,7 @@ export const CardProfile = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-5 md:gap-2 xl:gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 md:gap-2 xl:gap-5">
         <button className="rounded-lg text-white py-4 px-3 border border-blue-500 bg-blue-500 flex items-center justify-center gap-2 hover:bg-blue-600 transition-colors duration-300">
           <RiArticleLine className='md:hidden lg:block' />
           Descargar CV
