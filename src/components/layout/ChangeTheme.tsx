@@ -23,7 +23,7 @@ export const ChangeTheme = () => {
 
   return (
     <button
-      className="text-slate-700 hover:text-slate-900 transition-colors duration-300 flex items-center justify-center gap-3"
+      className="text-slate-700 dark:text-white hover:text-slate-900 transition-colors duration-300 flex items-center justify-center gap-3"
       aria-label="Cambiar tema"
       onClick={handleThemeChange}
     >

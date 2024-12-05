@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="container lg:w-main mx-auto text-gray-700">
+    <footer className="container lg:w-main mx-auto text-gray-700 dark:text-white">
       <p className="text-center pt-10">
         &copy; {new Date().getFullYear()}, Desarrollador por{" "}
         <a

@@ -20,8 +20,8 @@ export const NavLink = ({ href, title, children, ...props }: NavLinkProps) => {
     <Link
       href={href}
       className={cn(
-        'hover:bg-gray-100 p-2.5 text-sm rounded-md text-slate-600 hover:text-slate-800 flex items-center justify-start md:justify-center gap-2 transition-colors duration-300',
-        isActive && 'bg-gray-100 text-slate-800',
+        'hover:bg-gray-100 p-2.5 text-sm rounded-md text-slate-600 dark:hover:bg-gray-50/95 dark:text-white dark:hover:text-gray-800 hover:text-slate-800 flex items-center justify-start md:justify-center gap-2 transition-colors duration-300',
+        isActive && 'bg-gray-100 dark:bg-gray-100/95 text-slate-800 dark:text-gray-800',
       )}
       title={title}
       {...props}

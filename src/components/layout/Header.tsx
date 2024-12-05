@@ -22,7 +22,7 @@ export const Header = () => {
           isScrolled ? 'top-0' : 'top-10',
         )}
       >
-        <div className="bg-white flex items-center justify-between py-2 px-5 rounded-lg shadow-nav container w-full lg:w-main mx-auto transition-all duration-300">
+        <div className="bg-white dark:bg-dark flex items-center justify-between py-2 px-5 rounded-lg shadow-nav container w-full lg:w-main mx-auto transition-all duration-300">
           <Logo />
 
           <NavLinks />
@@ -33,7 +33,7 @@ export const Header = () => {
           </div>
           
           <button
-            className="bg-slate-200/80 hover:bg-slate-500/20 p-2 rounded-xl outline-none md:hidden transition-colors duration-300"
+            className="bg-slate-200/80 dark:bg-white/90 hover:bg-slate-500/20 p-2 rounded-xl outline-none md:hidden transition-colors duration-300"
             onClick={toggleShowMenu}
           >
             <CiMenuFries size={22} />
