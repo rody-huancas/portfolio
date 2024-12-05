@@ -2,8 +2,9 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
-import { GoPlus } from '@/utils'
 import { useBodyScrollLock } from '@/hooks'
+/* Icons */
+import { GoPlus } from '@/utils'
 
 export const ImagePreview: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false)
