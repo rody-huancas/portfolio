@@ -20,7 +20,7 @@ export const Sidebar = () => {
     <>
       <aside
         className={cn(
-          'fixed top-0 left-0 w-72 h-screen bg-white z-50 transition-all duration-500 p-5 flex flex-col justify-between md:hidden dark:bg-gray-800',
+          'fixed top-0 left-0 w-72 h-[100dvh] bg-white z-50 transition-all duration-500 p-5 flex flex-col justify-between md:hidden dark:bg-gray-800',
           !menuIsOpen && '-left-full',
         )}
       >

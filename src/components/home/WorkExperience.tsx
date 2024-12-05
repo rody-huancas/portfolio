@@ -27,7 +27,7 @@ export const WorkExperience = () => {
   const loopedExperiences = [...experiences, ...experiences]
 
   return (
-    <Card title="Experiencia Laboral" nameLink="Ver más detalles" href="/">
+    <Card title="Experiencia Laboral" nameLink="Ver más" href="/">
       <div className="relative h-52 overflow-hidden">
         <div className="absolute w-full animate-vertical-slide group">
           <div className="space-y-5">
