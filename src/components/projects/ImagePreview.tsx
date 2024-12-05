@@ -1,14 +1,16 @@
 'use client'
 
-import { useState } from 'react'
 import Image from 'next/image'
+import { useState } from 'react'
+import { GoPlus } from '@/utils'
+import { useBodyScrollLock } from '@/hooks'
 
-export const ImagePreview = () => {
-  const [isExpanded, setIsExpanded] = useState(false)
+export const ImagePreview: React.FC = () => {
+  const [isExpanded, setIsExpanded] = useState<boolean>(false)
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded)
-  }
+  const toggleExpand = () => setIsExpanded((prev) => !prev)
+
+  useBodyScrollLock(isExpanded)
 
   return (
     <div className="relative group">
@@ -21,10 +23,12 @@ export const ImagePreview = () => {
       />
 
       <button
-        className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity"
+        className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity"
         onClick={toggleExpand}
       >
-        <span className="text-white text-4xl font-bold">+</span>
+        <span className="bg-white shadow-sm text-2xl font-bold text-slate-800 p-1 rounded-full">
+          <GoPlus />
+        </span>
       </button>
 
       {isExpanded && (
