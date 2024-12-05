@@ -17,7 +17,7 @@ export const Card = (props: Props) => {
         <h3 className="text-lg font-semibold text-gray-700">{title}</h3>
 
         {href && (
-          <Link href={href} className="flex items-center gap-2 text-xs text-blue-600 font-medium underline underline-offset-2 hover:text-blue-700">
+          <Link href={href} className="flex items-center text-xs text-blue-600 font-medium underline underline-offset-2 hover:text-blue-700">
             {nameLink}
             <IoIosArrowRoundForward size={20} />
           </Link>
