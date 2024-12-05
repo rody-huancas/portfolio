@@ -1,7 +1,7 @@
 'use client'
 
 /*Components */
-import { ButtonContact, Logo, NavLink } from '@/components'
+import { ButtonContact, ChangeTheme, Logo, NavLink } from '@/components'
 /*Utils */
 import { cn } from '@/utils'
 /*Constants */
@@ -45,7 +45,8 @@ export const Sidebar = () => {
           </nav>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-4">
+          <ChangeTheme />
           <ButtonContact />
         </div>
       </aside>

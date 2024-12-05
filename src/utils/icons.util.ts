@@ -12,6 +12,7 @@ import { RiFileCopyLine } from 'react-icons/ri'
 import { GoPlus } from 'react-icons/go'
 import { CiMenuFries } from 'react-icons/ci'
 import { IoCloseOutline } from 'react-icons/io5'
+import { RiSunFill } from 'react-icons/ri'
 
 export {
   RiMoonClearFill,
@@ -28,4 +29,5 @@ export {
   GoPlus,
   CiMenuFries,
   IoCloseOutline,
+  RiSunFill,
 }
