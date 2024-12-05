@@ -1,6 +1,7 @@
 export * from './common/Card';
 export * from './common/CardProfile';
 export * from './home/ItemExperience';
+export * from './home/LinkSocial';
 export * from './home/RecentProjects';
 export * from './home/Skills';
 export * from './home/WorkExperience';
