@@ -11,8 +11,8 @@ export const Tooltip = ({ message, children }: TooltipProps) => {
       {children}
       <div className="absolute left-1/2 top-10 ml-auto mr-auto min-w-max -translate-x-1/2 scale-0 transform rounded-lg px-3 py-2 text-xs font-medium transition-all duration-500 group-hover:scale-100 z-50">
         <div className="flex max-w-xs flex-col items-center shadow-lg">
-          <div className="clip-bottom h-2 w-4 bg-slate-700"></div>
-          <div className="rounded bg-slate-700 p-2 text-center text-xs text-white">
+          <div className="clip-bottom h-2 w-4 bg-dark dark:bg-light"></div>
+          <div className="rounded bg-dark dark:bg-light p-2 text-center text-xs text-white dark:text-dark">
             {message}
           </div>
         </div>
