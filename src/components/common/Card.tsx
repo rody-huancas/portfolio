@@ -12,7 +12,7 @@ interface Props {
 export const Card = (props: Props) => {
   const { children, nameLink, title, href } = props
   return (
-    <div className="bg-white p-5 shadow-nav rounded-xl text-gray-600 space-y-5 lg:h-full">
+    <div className="bg-white p-5 shadow-nav rounded-xl text-gray-600 space-y-5 md:h-full">
       <div className="flex items-center justify-between">
         <h3 className="text-lg font-semibold text-gray-700">{title}</h3>
 

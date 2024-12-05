@@ -3,9 +3,9 @@ import { RiArticleLine, RiCodepenLine, RiFileCopyLine, RiGithubLine, RiLinkedinL
 
 export const CardProfile = () => {
   return (
-    <div className="bg-white p-5 shadow-nav rounded-xl text-gray-600 space-y-5 h-full flex flex-col justify-between">
+    <div className="bg-white p-5 shadow-nav rounded-xl text-gray-600 space-y-5 md:space-y-2 lg:space-y-5 h-full flex flex-col justify-between">
       <div className="space-y-3">
-        <div className="relative w-full h-72 rounded-xl">
+        <div className="relative w-full h-72 md:h-60 lg:h-72 rounded-xl">
           <Image src="/placeholder.png" alt="Placeholder de imagen" fill className='rounded-xl' />
         </div>
 
@@ -18,13 +18,13 @@ export const CardProfile = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-5 md:gap-2 xl:gap-5">
         <button className="rounded-lg text-white py-4 px-3 border border-blue-500 bg-blue-500 flex items-center justify-center gap-2 hover:bg-blue-600 transition-colors duration-300">
-          <RiArticleLine />
+          <RiArticleLine className='md:hidden lg:block' />
           Descargar CV
         </button>
         <button className="rounded-lg py-4 px-3 border border-gray-500 bg-transparent flex items-center justify-center gap-2 hover:bg-gray-700 hover:text-white transition-colors duration-300">
-          <RiFileCopyLine />
+          <RiFileCopyLine className='md:hidden lg:block' />
           Copiar Email
         </button>
       </div>
