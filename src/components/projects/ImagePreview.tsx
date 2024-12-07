@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
+/* Hooks */
 import { useBodyScrollLock } from '@/hooks'
 /* Icons */
 import { GoPlus } from '@/utils'
@@ -46,7 +47,7 @@ export const ImagePreview: React.FC = () => {
               alt="Expanded"
               width={1000}
               height={700}
-              className="lg:w-[1000px] lg:h-[700px] object-cover rounded-xl"
+              className="object-cover rounded-xl"
             />
           </div>
         </div>

@@ -9,7 +9,7 @@ export const ButtonContact = () => {
       className="py-3.5 px-5 bg-slate-800 dark:bg-slate-50 rounded-lg text-white dark:text-gray-800 font-medium text-md flex items-center justify-center gap-2 hover:bg-slate-950 transition-colors duration-300"
       title="Contáctame"
     >
-      Contacto
+      Hablemos
       <TbArrowElbowRight size={20} />
     </Link>
   )
