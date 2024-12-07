@@ -28,9 +28,9 @@ export const ChangeTheme = () => {
       onClick={handleThemeChange}
     >
       {theme ? (
-        <RiSunFill size={25} className="icon-rotate" />
+        <RiSunFill size={20} className="icon-rotate" />
       ) : (
-        <RiMoonClearFill size={25} className="icon-rotate" />
+        <RiMoonClearFill size={20} className="icon-rotate" />
       )}
       <span className="text-sm md:hidden">Cambiar Modo</span>
     </button>

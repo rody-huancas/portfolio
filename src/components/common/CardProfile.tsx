@@ -9,7 +9,7 @@ export const CardProfile = () => {
   const { copied, copy } = useCopyToClipboard("rodyhuancas.04@gmail.com");
 
   return (
-    <div className="bg-white dark:bg-dark p-5 shadow-nav rounded-xl text-gray-600 dark:text-light space-y-5 md:space-y-2 lg:space-y-5 h-full flex flex-col justify-between">
+    <div className="bg-white dark:bg-dark p-5 shadow-nav rounded-xl text-gray-600 dark:text-light space-y-5 md:space-y-2 lg:space-y-5 md:h-card flex flex-col justify-between">
       <div className="space-y-3">
         <div className="relative w-full h-72 md:h-60 lg:h-72 rounded-xl">
           <Image
