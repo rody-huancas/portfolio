@@ -12,6 +12,9 @@ export default {
       width: {
         "main": "1300px"
       },
+      height: {
+        "card": "650px"
+      },
       keyframes: {
         rotate: {
           "0%": { transform: "rotate(0deg)" },

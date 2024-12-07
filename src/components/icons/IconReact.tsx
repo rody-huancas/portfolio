@@ -3,7 +3,7 @@ import { Tooltip } from '@/components'
 
 export const IconReact = (props: SVGProps<SVGSVGElement>) => {
   return (
-    <Tooltip message="React">
+    <Tooltip message="React.js">
       <svg
         viewBox="0 0 256 228"
         width="1em"
