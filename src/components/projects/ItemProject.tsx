@@ -1,0 +1,28 @@
+import Link from "next/link";
+import { ImagePreview } from "@/components";
+import { GoArrowUpRight } from "@/utils";
+
+export const ItemProject = () => {
+  return (
+    <div className="w-full space-y-5 px-10 py-7 bg-gray-100 dark:bg-gray-50/10 font-secondary rounded-xl">
+      <ImagePreview />
+
+      <div className="flex items-center justify-between">
+        <Link
+          href="/"
+          className="text-2xl font-bold text-dark/90 dark:text-light dark:hover:text-blue-400 hover:underline hover:underline-offset-2 hover:text-blue-600 transition-all duration-150"
+        >
+          Título del Proyecto
+        </Link>
+        <a
+          href="https://github.com/rody-huancas"
+          className="flex items-center gap-1 hover:text-blue-600 dark:text-white dark:hover:text-blue-100 font-medium"
+          target="_blank"
+        >
+          Visitar el sitio
+          <GoArrowUpRight />
+        </a>
+      </div>
+    </div>
+  );
+};

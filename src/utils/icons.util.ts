@@ -13,6 +13,7 @@ import { GoPlus } from 'react-icons/go'
 import { CiMenuFries } from 'react-icons/ci'
 import { IoCloseOutline } from 'react-icons/io5'
 import { RiSunFill } from 'react-icons/ri'
+import { GoArrowUpRight } from "react-icons/go";
 
 export {
   RiMoonClearFill,
@@ -30,4 +31,5 @@ export {
   CiMenuFries,
   IoCloseOutline,
   RiSunFill,
+  GoArrowUpRight
 }
