@@ -1,12 +1,9 @@
-import { ImagePreview } from "@/components";
+import { ItemProject, Title } from "@/components";
 
 const Projects = () => {
   return (
     <div className="space-y-5">
-      <h2 className="text-3xl text-dark/80 font-bold">
-        Vea mis últimos{" "}
-        <span className="capitalize text-blue-500">proyectos</span>
-      </h2>
+      <Title title="Vea mis últimos" subtitle="Proyectos" />
 
       <p>
         Desarrollando soluciones técnologicas que transforman ideas en
@@ -14,8 +11,10 @@ const Projects = () => {
         la tecnología más allá de los límites convencionales.
       </p>
 
-      <div>
-        <ImagePreview />
+      <div className="space-y-10">
+        <ItemProject />
+        <ItemProject />
+        <ItemProject />
       </div>
     </div>
   );

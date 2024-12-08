@@ -1,5 +1,6 @@
 export * from './common/Card';
 export * from './common/CardProfile';
+export * from './common/Title';
 export * from './home/ItemExperience';
 export * from './home/LinkSocial';
 export * from './home/RecentProjects';
@@ -32,4 +33,5 @@ export * from './layout/NavLink';
 export * from './layout/NavLinks';
 export * from './layout/Sidebar';
 export * from './projects/ImagePreview';
+export * from './projects/ItemProject';
 export * from './ui/Tooltip';
