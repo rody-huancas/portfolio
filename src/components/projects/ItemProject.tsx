@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "@/utils";
 
 export const ItemProject = () => {
   return (
-    <div className="w-full space-y-5 px-10 py-7 bg-gray-100 dark:bg-gray-50/10 font-secondary rounded-xl">
+    <div className="w-full space-y-5 px-10 py-7 bg-light dark:bg-black/30 font-secondary rounded-xl">
       <ImagePreview />
 
       <div className="flex items-center justify-between">
