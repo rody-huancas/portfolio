@@ -34,4 +34,5 @@ export * from './layout/NavLinks';
 export * from './layout/Sidebar';
 export * from './projects/ImagePreview';
 export * from './projects/ItemProject';
+export * from './ui/Input';
 export * from './ui/Tooltip';
