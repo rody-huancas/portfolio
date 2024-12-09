@@ -14,6 +14,7 @@ import { CiMenuFries } from 'react-icons/ci'
 import { IoCloseOutline } from 'react-icons/io5'
 import { RiSunFill } from 'react-icons/ri'
 import { GoArrowUpRight } from "react-icons/go";
+import { TbPointFilled } from "react-icons/tb";
 
 export {
   RiMoonClearFill,
@@ -31,5 +32,6 @@ export {
   CiMenuFries,
   IoCloseOutline,
   RiSunFill,
-  GoArrowUpRight
+  GoArrowUpRight,
+  TbPointFilled
 }
