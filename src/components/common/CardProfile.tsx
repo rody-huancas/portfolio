@@ -10,7 +10,7 @@ export const CardProfile = () => {
 
   return (
     <div className="bg-white dark:bg-dark p-5 shadow-nav rounded-xl text-gray-600 dark:text-light space-y-5 md:space-y-2 lg:space-y-5 md:h-card flex flex-col justify-between">
-      <div className="space-y-3">
+      <div className="space-y-3 font-secondary">
         <div className="relative w-full h-72 md:h-60 lg:h-72 rounded-xl">
           <Image
             src="/placeholder.png"
@@ -24,7 +24,7 @@ export const CardProfile = () => {
           Rody Huancas 👋
         </h1>
         <div className="space-y-1">
-          <p className="text-balance">
+          <p>
             Un apasionado{" "}
             <span className="font-bold">Desarrollador Full Stack</span> 🖥️ con{" "}
             <span className="font-semibold">+2 años de experiencia </span>
