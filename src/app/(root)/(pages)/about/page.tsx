@@ -1,5 +1,5 @@
-import { Title } from "@/components";
-import { TbPointFilled } from "@/utils";
+import { TimelineItem, Title } from "@/components";
+import { TbPointFilled, MdOutlineSchool, FaDownload } from "@/utils";
 
 const About = () => {
   return (
@@ -23,11 +23,15 @@ const About = () => {
       <div className="flex items-center gap-5">
         <div className="flex flex-col">
           <span className="text-5xl font-bold">+2</span>
-          <span className="text-xs text-light/80">Años de Experiencia</span>
+          <span className="text-xs text-dark dark:text-light/80">
+            Años de Experiencia
+          </span>
         </div>
         <div className="flex flex-col">
           <span className="text-5xl font-bold">+190</span>
-          <span className="text-xs text-light/80">Proyectos en GitHub</span>
+          <span className="text-xs text-dark dark:text-light/80">
+            Proyectos en GitHub
+          </span>
         </div>
       </div>
 
@@ -35,6 +39,35 @@ const About = () => {
         <h4 className="text-2xl font-bold">
           Mi <span className="text-blue-500">Educación</span>
         </h4>
+
+        <ol className="relative border-s border-gray-200 dark:border-gray-700 ml-5">
+          <TimelineItem
+            icon={MdOutlineSchool}
+            title="Universidad Señor de Sipán"
+            subtitle="Ingeniería de Sistemas"
+            status="Culminado"
+            date="Diciembre 2023"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum fugit vitae id. Expedita perferendis temporibus vel quod asperiores. Similique delectus architecto quis? Incidunt harum beatae sunt nisi cum amet."
+            actionButton={{
+              label: "Descargar Certificado",
+              url: "/certificate.pdf",
+              icon: FaDownload,
+            }}
+          />
+          <TimelineItem
+            icon={MdOutlineSchool}
+            title="Universidad Señor de Sipán"
+            subtitle="Ingeniería de Sistemas"
+            status="Culminado"
+            date="Diciembre 2023"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum fugit vitae id. Expedita perferendis temporibus vel quod asperiores. Similique delectus architecto quis? Incidunt harum beatae sunt nisi cum amet."
+            actionButton={{
+              label: "Descargar Certificado",
+              url: "/certificate.pdf",
+              icon: FaDownload,
+            }}
+          />
+        </ol>
       </div>
     </div>
   );
