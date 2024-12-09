@@ -15,6 +15,8 @@ import { IoCloseOutline } from 'react-icons/io5'
 import { RiSunFill } from 'react-icons/ri'
 import { GoArrowUpRight } from "react-icons/go";
 import { TbPointFilled } from "react-icons/tb";
+import { MdOutlineSchool } from "react-icons/md";
+import { FaDownload } from "react-icons/fa";
 
 export {
   RiMoonClearFill,
@@ -33,5 +35,7 @@ export {
   IoCloseOutline,
   RiSunFill,
   GoArrowUpRight,
-  TbPointFilled
+  TbPointFilled,
+  MdOutlineSchool,
+  FaDownload
 }
