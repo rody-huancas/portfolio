@@ -7,10 +7,10 @@ export const ItemProject = () => {
     <div className="w-full space-y-7 bg-light dark:bg-black/10 font-secondary rounded-xl">
       <ImagePreview />
 
-      <div className="flex items-center justify-between px-10 pb-7">
+      <div className="flex flex-col sm:flex-row md:flex-col xl:flex-row items-center justify-between gap-5 lg:gap-0 px-10 pb-7">
         <Link
           href="/"
-          className="text-2xl font-bold text-dark/90 dark:text-light dark:hover:text-blue-400 hover:underline hover:underline-offset-2 hover:text-blue-600 transition-all duration-150"
+          className="text-2xl md:text-xl text-center lg:text-2xl font-bold text-dark/90 dark:text-light dark:hover:text-blue-400 hover:underline hover:underline-offset-2 hover:text-blue-600 transition-all duration-150"
         >
           Título del Proyecto
         </Link>

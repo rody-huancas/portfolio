@@ -3,7 +3,7 @@
 /* Components */
 import { ButtonContact, ChangeTheme, Logo, NavLinks } from "@/components";
 /* Utils */
-import { cn, TbArrowElbowRight } from "@/utils";
+import { cn, CiMenuFries } from "@/utils";
 /* Hooks */
 import { useScroll } from "@/hooks";
 import { useThemeStore } from "@/store";
@@ -36,7 +36,7 @@ export const Header = () => {
             className="bg-slate-200/80 dark:bg-white/90 hover:bg-slate-500/20 p-2 rounded-xl outline-none md:hidden transition-colors duration-300"
             onClick={toggleShowMenu}
           >
-            <TbArrowElbowRight />
+            <CiMenuFries />
           </button>
         </div>
       </header>
