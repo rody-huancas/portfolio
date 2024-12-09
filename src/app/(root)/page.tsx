@@ -1,4 +1,4 @@
-import { CardProfile, WorkExperience, Skills, RecentProjects } from '@/components'
+import { CardProfile, WorkExperience, Skills, RecentProjects, Card } from "@/components";
 
 export default function Home() {
   return (
@@ -14,7 +14,13 @@ export default function Home() {
         <div className="h-full row-start-2 md:col-span-2 xl:col-start-3 xl:row-start-1 xl:col-span-1">
           <RecentProjects />
         </div>
+        <div className="col-span-2">
+          <Card title="Educación">Estudios</Card>
+        </div>
+        <div>
+          <Card title="Contacto">Contacto</Card>
+        </div>
       </div>
     </section>
-  )
+  );
 }

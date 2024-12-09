@@ -13,7 +13,7 @@ export const Input = ({ label, className, ...props }: Props) => {
       )}
       <input
         className={cn(
-          "bg-white dark:bg-dark/10 py-4 px-5 rounded-lg border border-slate-500/40 font-secondary focus:ring-blue-500 focus:border-blue-500",
+          "bg-white dark:bg-dark py-4 px-5 rounded-lg border border-slate-500/40 font-secondary focus:ring-blue-500 focus:border-blue-500",
           className
         )}
         {...props}
