@@ -35,4 +35,5 @@ export * from './layout/Sidebar';
 export * from './projects/ImagePreview';
 export * from './projects/ItemProject';
 export * from './ui/Input';
+export * from './ui/Textarea';
 export * from './ui/Tooltip';

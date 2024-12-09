@@ -21,7 +21,7 @@ export const ImagePreview: React.FC = () => {
         alt="Preview"
         width={400}
         height={300}
-        className="w-full h-auto cursor-pointer rounded-lg"
+        className="w-full h-auto cursor-pointer rounded-xl"
       />
 
       <button

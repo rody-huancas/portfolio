@@ -23,7 +23,7 @@ export default {
       },
       colors: {
         "light": "#F0F2F5",
-        "dark": "#001d30"
+        "dark": "#1c232e"
       }
     },
   },

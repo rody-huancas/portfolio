@@ -4,10 +4,10 @@ import { GoArrowUpRight } from "@/utils";
 
 export const ItemProject = () => {
   return (
-    <div className="w-full space-y-5 px-10 py-7 bg-light dark:bg-black/30 font-secondary rounded-xl">
+    <div className="w-full space-y-7 bg-light dark:bg-black/10 font-secondary rounded-xl">
       <ImagePreview />
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between px-10 pb-7">
         <Link
           href="/"
           className="text-2xl font-bold text-dark/90 dark:text-light dark:hover:text-blue-400 hover:underline hover:underline-offset-2 hover:text-blue-600 transition-all duration-150"
