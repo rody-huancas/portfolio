@@ -4,8 +4,8 @@ import { TbPointFilled, MdOutlineSchool, FaDownload } from "@/utils";
 const About = () => {
   return (
     <div className="space-y-7 font-secondary">
-      <div className="flex items-center justify-between">
-        <Title title="Hola, soy" subtitle="Rody Huancas👋" />
+      <div className="flex flex-col xl:flex-row items-center justify-between gap-5">
+        <Title title="Hola, soy" subtitle="Rody Huancas👋" className="text-center" />
         <div className="available-btn">
           <span className="flex items-center gap-1 text-sm bg-light/5 py-3 px-4 rounded-lg text-blue-400 font-medium available-btn">
             <TbPointFilled className="icon" />
