@@ -5,6 +5,7 @@ export * from './home/ItemExperience';
 export * from './home/LinkSocial';
 export * from './home/RecentProjects';
 export * from './home/Skills';
+export * from './home/Contactme';
 export * from './home/WorkExperience';
 export * from './icons/IconDBMySql';
 export * from './icons/IconDocker';

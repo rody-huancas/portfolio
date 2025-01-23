@@ -73,3 +73,30 @@
     opacity: 0.7;
   }
 }
+
+/* CARD CONTACT */
+.scroll-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.animate-scroll {
+  display: inline-flex;
+  width: max-content;
+  animation: smoothScroll 15s linear infinite;
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll > * {
+  margin-right: 1rem;
+  white-space: nowrap;
+}
