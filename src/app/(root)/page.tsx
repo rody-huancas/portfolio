@@ -1,4 +1,4 @@
-import { CardProfile, WorkExperience, Skills, RecentProjects, Card, Title, Contactme } from "@/components";
+import { CardProfile, WorkExperience, Skills, RecentProjects, Card, Contactme } from "@/components";
 
 export default function Home() {
   return (
