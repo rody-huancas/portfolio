@@ -1,7 +1,7 @@
 'use client'
 
 /*Components */
-import { ButtonContact, ChangeTheme, Logo, NavLink } from '@/components'
+import { ButtonContact, Logo, NavLink } from '@/components'
 /*Utils */
 import { cn } from '@/utils'
 /*Constants */
