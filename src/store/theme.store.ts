@@ -1,18 +1,20 @@
 import { devtools, persist } from "zustand/middleware";
 import { StateCreator, create } from "zustand";
 
+type Theme = 'light' | 'dark' | 'system';
+
 interface ThemeState {
-  theme        : boolean;
-  menuIsOpen   : boolean;
-  setTheme     : (theme: boolean) => void;
+  theme: Theme;
+  menuIsOpen: boolean;
+  setTheme: (theme: Theme) => void;
   setMenuIsOpen: (value: boolean) => void;
 }
 
 const storeApi: StateCreator<ThemeState> = (set) => ({
-  theme: false,
+  theme: 'system',
   menuIsOpen: false,
 
-  setTheme: (theme: boolean) => set({ theme }),
+  setTheme: (theme: Theme) => set({ theme }),
   setMenuIsOpen: (value: boolean) => set({ menuIsOpen: value }),
 });
 

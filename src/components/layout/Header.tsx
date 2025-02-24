@@ -27,17 +27,20 @@ export const Header = () => {
 
           <NavLinks />
 
-          <div className="hidden md:flex items-center gap-5">
+          <div className="flex items-center gap-5">
             <ChangeTheme />
-            <ButtonContact />
-          </div>
 
-          <button
-            className="bg-slate-200/80 dark:bg-white/90 hover:bg-slate-500/20 p-2 rounded-xl outline-none md:hidden transition-colors duration-300"
-            onClick={toggleShowMenu}
-          >
-            <CiMenuFries />
-          </button>
+            <div className="hidden md:block">
+              <ButtonContact />
+            </div>
+            
+            <button
+              className="bg-slate-200/80 dark:bg-white/90 hover:bg-slate-500/20 p-2 rounded-xl outline-none md:hidden transition-colors duration-300"
+              onClick={toggleShowMenu}
+            >
+              <CiMenuFries />
+            </button>
+          </div>
         </div>
       </header>
     </>

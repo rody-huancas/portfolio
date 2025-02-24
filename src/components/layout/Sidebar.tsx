@@ -46,7 +46,6 @@ export const Sidebar = () => {
         </div>
 
         <div className="flex flex-col gap-4">
-          <ChangeTheme />
           <ButtonContact />
         </div>
       </aside>
