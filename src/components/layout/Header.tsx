@@ -22,7 +22,7 @@ export const Header = () => {
           isScrolled ? "top-0" : "top-10"
         )}
       >
-        <div className="bg-white dark:bg-dark flex items-center justify-between py-2 px-5 rounded-lg shadow-nav container w-full lg:w-main mx-auto transition-all duration-300">
+        <div className="bg-white dark:bg-dark flex items-center justify-between py-2 px-5 rounded-lg shadow-nav w-full md:w-[95%] xl:container xl:w-main mx-auto transition-all duration-300">
           <Logo />
 
           <NavLinks />
