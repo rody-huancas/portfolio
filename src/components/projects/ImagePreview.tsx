@@ -17,11 +17,11 @@ export const ImagePreview: React.FC = () => {
   return (
     <div className="relative group">
       <Image
-        src="/project.png"
+        src="https://res.cloudinary.com/dmgazox1n/image/upload/v1740382956/Portafolio/Projects/novtiq-dashboard.png"
         alt="Preview"
         width={400}
         height={300}
-        className="w-full h-auto cursor-pointer rounded-xl"
+        className="w-full h-auto cursor-pointer rounded-xl object-contain"
       />
 
       <button
@@ -43,7 +43,7 @@ export const ImagePreview: React.FC = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <Image
-              src="/project.png"
+              src="https://res.cloudinary.com/dmgazox1n/image/upload/v1740382956/Portafolio/Projects/novtiq-dashboard.png"
               alt="Expanded"
               width={1000}
               height={700}

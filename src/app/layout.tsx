@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es">
-      <body className={cn("container lg:w-main mx-auto py-10 bg-light", poppins.className)}>
+      <body className={cn("w-[95%] xl:container xl:w-main mx-auto py-10 bg-light", poppins.className)}>
         {children}
         <Background />
       </body>
