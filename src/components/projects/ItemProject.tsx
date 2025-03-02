@@ -43,7 +43,7 @@ export const ItemProject = () => {
           <div className="flex items-center gap-5">
             <a
               href="https://github.com/rody-huancas"
-              className="text-sm flex items-center gap-1 p-2 rounded-lg bg-gray-100 border border-gray-500/20 hover:bg-gray-800 transition-colors duration-300 hover:text-white"
+              className="text-sm flex items-center gap-1 p-2 rounded-lg dark:bg-gray-300/10 bg-gray-100 border border-gray-500/20 hover:bg-gray-800 transition-colors duration-300 hover:text-white"
               target="_blank"
             >
               <GoArrowUpRight />
@@ -52,7 +52,7 @@ export const ItemProject = () => {
 
             <a
               href="https://github.com/rody-huancas"
-              className="text-sm flex items-center gap-1 p-2 rounded-lg bg-gray-100 border border-gray-500/20 hover:bg-gray-800 transition-colors duration-300 hover:text-white"
+              className="text-sm flex items-center gap-1 p-2 rounded-lg dark:bg-gray-300/10 bg-gray-100 border border-gray-500/20 hover:bg-gray-800 transition-colors duration-300 hover:text-white"
               target="_blank"
             >
               <BsGithub />

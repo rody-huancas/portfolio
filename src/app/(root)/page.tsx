@@ -1,4 +1,4 @@
-import { CardProfile, WorkExperience, Skills, RecentProjects, Card, Contactme } from "@/components";
+import { CardProfile, WorkExperience, Skills, RecentProjects, Contactme, Certifications } from "@/components";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
           <RecentProjects />
         </div>
         <div className="xl:col-span-2">
-          <Card title="Educación">Estudios</Card>
+          <Certifications />
         </div>
         <div>
           <Contactme />
